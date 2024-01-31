@@ -1,4 +1,5 @@
 import {FC} from 'react'
+import Welcome from '../module/welcome/ui/Welcome.tsx'
 
 interface MainPageProps {
 
@@ -6,8 +7,8 @@ interface MainPageProps {
 
 const MainPage: FC<MainPageProps> = () => {
   return (
-      <div className="bg-green-300 text-[24px]">
-
+      <div>
+        <Welcome/>
       </div>
   )
 }
